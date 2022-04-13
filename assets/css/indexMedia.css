@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px) {
+    .headline > p {
+        width: auto;
+        height: auto;
+    }
+    .info_header {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #_ {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .phone-hand h2 {
+        line-height: normal;
+    }
+    .phone-hand-footer {
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+    }
+    #description-footer div p {
+        line-height: normal;
+        margin: 0.3rem 0; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .phoneInHand {
+        display: none;
+    }
+    .map {
+        padding: 5rem 0;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .phoneInHand {
+        margin-bottom: 3rem;
+    }
+    .text {
+        width: 50%;
+    }
+    .masthead-content {
+        margin: 0 1rem
+    }
+    .masthead-content p {
+        font-size: 22px;     
+    }
+    .masthead {
+        justify-content: flex-start;
+        
+    }
+
+}
+
+@media screen and (max-width: 570px) {
+    .testimonials-pic {
+        width: 300px;
+        height: 300px;
+    }
+    .callToAction > .container {
+        flex-direction: column;
+    }
+    .DoYouLike {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 1185px) {
+    .quote {
+        width: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .quote div p {
+        text-align: center;
+    }
+    .thisTheme {
+        text-align: center;
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+    }
+
+    .testimonials > .container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .testimonials-pic {
+        width: auto;
+        height: auto;
+    }
+    .column {
+        margin: 1rem 0;
+    }
+    .heading h2 {
+        line-height: normal;
+    }
+}
+@media screen and (max-width: 768px) {
+    .map {
+        justify-content: center;
+    }
+    .text {
+        margin: 0;
+        width: 70%;
+    }
+    .map {
+        background-image: none;
+    }
+    .plans {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan {
+        margin: 1rem 0;
+    }
+    .help-heading {
+        height: auto;
+    }
+    .pricing-content {
+        width: 100%;
+    }
+}

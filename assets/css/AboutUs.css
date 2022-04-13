@@ -1,0 +1,222 @@
+.masthead {
+    background: url(../img/AboutUsBackGround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.masthead::before {
+    content: '';
+    position: absolute;
+    opacity: 0.7;
+    background: #2d6e70;
+    backdrop-filter: hue-rotate(180deg);
+    height: 600px;
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {
+    .masthead {
+        justify-content: center;
+    }
+    .nav-menu {
+        background-color: #2d6e70;
+    }
+}
+
+.masthead > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 54%;
+    position: absolute;
+}
+.masthead > .container p {
+    font-size: 50px;
+    line-height: 1.2;
+    color: #ffffff;
+    font-family: 'Roboto Light';
+    text-align: center;
+}
+@media screen and (max-width: 710px) {
+    .masthead > .container p {
+        font-size: 30px;
+    }
+}
+.start {
+    width: 230px;
+    height: 50px;
+    background-color: #6fb048;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat Medium";
+    text-align: center;
+    margin-top: 30px;
+}
+.column_3 {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column_3 > .container {
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+}
+
+.heading {
+    margin-bottom: 2rem;
+}
+.heading h2 {
+    font-size: 32px;
+    color: #0f5f5c;
+    font-family: 'Roboto Light';
+    text-align: center;
+}
+.heading div {
+    width: 65px;
+    height: 1px;
+    background-color: #6fb048;
+    margin: 20px auto
+}
+.heading p {
+    font-family: "Roboto Regular";
+    max-width: 800px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #83a7a5;
+    text-align: center;
+    margin: 0 auto;
+}
+.column_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 68px;
+    width: 100%;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 288px;
+    padding: 1rem 0;
+    margin: 0 2rem;
+}
+.items img {
+    display: block;
+    width: 52px;
+    height: 52px;
+}
+
+.items h3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0f5f5c;
+    text-align: center;
+    margin: 20px 0;
+
+}
+.items p {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #83a7a5;
+    text-align: center;
+}
+
+.section-ourTeam {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    background-color: #eef1ec;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+.section-ourTeam > .container {
+    flex-direction: column;
+}
+/* flip Cards */
+
+.person {
+    margin: 1rem 1rem;
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+.flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.person:hover .flipCardInner {
+    transform: rotateY(180deg);
+}
+
+.flipCardFront, .flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipCardFront {
+    background-color: #bbb;
+    color: black;
+}
+
+.flipCardBack {
+    background-color: #eef1ec;
+    transform: rotateY(180deg);
+}
+ 
+
+
+.persons-h2 {
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f5f5c;
+    font-weight: 500;
+}
+
+.persons-p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #83a7a5;
+    font-weight: 400;
+}
+
+.callToAction {
+    background-image: url(../img/Download\ now\ green.png);
+}
+
+.DoWapik , .Aenean {
+    color: #ffffff;
+}
+
+.btnDiv {
+    background-color: #49732f;
+}
+
+.btnDiv:hover {
+    background-color: darkred;
+}

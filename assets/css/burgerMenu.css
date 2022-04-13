@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.nav {
+    color: #fff;
+    font-family: "Roboto";
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    margin-left: 3rem;
+}
+
+.nav-menu li:first-child {
+    margin: 0;
+}
+
+.nav-menu.active {
+    visibility: visible;
+    opacity: 1;
+    transition:  visibility 0.5s linear 0s , opacity 500ms;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-family: 'Roboto Bold';
+    text-align: right;
+    border-bottom: 1px solid transparent;
+    opacity: 0.7;
+}
+.nav-menu a:hover, .nav-menu a:active, .nav-menu a.active {
+    border-bottom: 1px solid #fff;
+}
+.nav-menu a:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.nav-menu a:active {
+    cursor: pointer;
+    opacity: 1;
+    color: yellowgreen;
+}
+.nav-menu a.active {
+    opacity: 1;
+}
+
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.burger.active .line1 {
+    transform: rotate(45deg) translate(5px, 6px);
+}
+
+.burger.active .line2 {
+    opacity: 0;
+}
+
+.burger.active .line3 {
+    transform: rotate(-45deg) translate(5px, -6px);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 85px;
+        right: 0;
+        width: 50%;
+        visibility: hidden;
+        opacity: 0;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: calc(100vh - 60vh);
+        transition:  visibility 0.5s linear 0s , opacity 500ms;
+    }
+
+    .nav-menu li {
+        opacity: 0;
+        margin: 0;
+    }
+}
+
+@keyframes navLinksFade {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) translateX(0);
+    }
+}

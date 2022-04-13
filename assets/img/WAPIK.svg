@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 20" width="90" height="20">
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 13px;line-height: 21px;fill: #ffffff;font-weight: bold;font-family: "Proxima Nova" } 
+	</style>
+	<text id="WAPIK" style="transform: matrix(2.211,0,0,2.211,1.035,20.093)" >
+		<tspan x="0" y="0" class="txt0">WAPIK</tspan>
+	</text>
+</svg>

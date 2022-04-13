@@ -1,0 +1,531 @@
+.masthead {
+    background: url(../img/home/masthead/Layer\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.masthead::before {
+    content: '';
+    position: absolute;
+    opacity: 0.9;
+    background: #2d6e70;
+    height: 660px;
+    width: 100%;
+}
+.masthead > .container {
+    position: absolute;
+    justify-content: flex-start;
+}
+.headline > p {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    max-width: 513px;
+    font-size: 16px;
+    line-height: 24px;
+}
+#learn {
+    width: 186px;
+    height: 50px;
+    background: #6fb048;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat Medium';
+    text-align: center;
+}
+
+.column_3 {
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column_3 > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    margin-bottom: 2rem;
+}
+.heading h2 {
+    font-size: 32px;
+    color: #0f5f5c;
+    font-family: 'Roboto Light';
+    text-align: center;
+}
+.heading div {
+    width: 65px;
+    min-height: 1px;
+    background-color: #6fb048;
+    margin: 20px auto
+}
+.heading p {
+    max-width: 400px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #83a7a5;
+    text-align: center;
+    margin: 0 auto;
+}
+.column_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 68px;
+    width: 100%;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 288px;
+    padding: 1rem 0;
+    margin: 0 2rem;
+}
+.items img {
+    display: block;
+    width: 52px;
+    height: 52px;
+}
+
+.items h3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0f5f5c;
+    text-align: center;
+    margin: 20px 0;
+
+}
+.items p {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #83a7a5;
+    text-align: center;
+}
+
+.others {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0;
+}
+.others > .container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.others-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#vertical {
+    width: 2px;
+    height: 90px;
+    background-color: #f2f2f2;
+}
+#horizonal {
+    height: 2px;
+    width: 90px;
+    background-color: #f2f2f2;
+}
+.others-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.others-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5rem 0;
+}
+.others-item {
+    margin: 1rem 2rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    min-width: 280px;
+
+}
+.others-item div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.others-item h3 {
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0f5f5c;
+}
+.others-item p {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #83a7a5;
+    font-family: "Roboto Medium";
+}
+
+.phone-hand {
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    background-color: #edf1eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-hand > .container {
+    flex-direction: column;
+}
+
+.phone-hand-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#hand {
+    width: auto;
+    height: 487px;
+    object-fit: cover;
+    object-position: -79px 120px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+.description h2 {
+    font-size: 32px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-weight: 300;
+    font-family: "Roboto Regular";
+}
+#description-text {
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #83a7a5;
+    margin-top: 16px;
+}
+#description-footer {
+    margin-top: 26px;
+    width: auto;
+    height: auto;
+    display: flex;
+
+}
+#description-footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#description-footer div p {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 27px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #83a7a5;
+    font-family: "Roboto Regular";
+}
+#description-footer div img {
+    width: 20px;
+    height: 20px;
+}
+.testimonials {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+.testimonials > .container {
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.quote {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+.thisTheme {
+    font-size: 22px;
+    line-height: 40px;
+    color: #83a7a5;
+    font-weight: 300;
+    font-family: "Merriweather";
+}
+.name {
+    font-size: 14px;
+    line-height: 22px;
+    color: #6fb048;
+    font-family: 'Roboto Bold';
+}
+.company-name {
+    font-size: 14px;
+    line-height: 22px;
+    color: #83a7a5;
+    font-family: 'Roboto Medium';
+}
+.testimonials-pic {
+    width: 400px;
+    height: 400px;
+    min-height: 200px;
+    min-width: 200px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url(../img/home/testimonials/Layer\ 31.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    padding: 12rem 0;
+    background-color: #eef1ec;
+    background-image: url(../img/home/map/Vector\ Smart\ Object.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map > .container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.built, .fusce {
+    max-width: 500px;
+}
+
+.built {
+    font-size: 32px;
+    color: #0f5f5c;
+    font-family: "Roboto Light";
+    margin-bottom: 1rem;
+}
+.fusce {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    color: #83a7a5;
+    font-family: "Roboto Regular";
+}
+
+.pricing {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing > .container {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.plan {
+    width: 255px;
+    height: auto;
+    padding: 3rem 0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #c1d3d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planContent {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.planContent-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.planContent-header h3 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #6fb048;
+    font-family: "Roboto Bold";
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.planContent-header span {
+    font-size: 65px;
+    color: #0f5f5c;
+    font-family: "Montserrat Bold";
+    text-align: center;
+}
+.planContent-header p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-family: "Roboto Regular";
+    text-align: center;
+}
+.inPlan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+.inPlan > p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #83a7a5;
+    font-family: "Roboto Regular";
+    text-align: center;
+}
+.selectPlan {
+    width: 140px;
+    height: 42px;
+    border-radius: 2px;
+    background-color: #83a7a5;
+    border: none;
+    margin-top: 1rem;
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Montserrat Bold";
+    text-align: center;
+}
+.selectPlan:hover {
+    background-color: #6fb048;
+    cursor: pointer;
+}
+
+.add-ons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    margin: 1rem 2rem;
+    width: 277px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+}
+.column div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.column div p {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 27px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #83a7a5;
+    font-family: "Roboto Regular";
+    margin: auto;
+}
+
+.column div img {
+    margin: 3px 0;
+    width: 20px;
+    height: 20px;
+}
+.column-ps {
+    margin-left: 0.7rem;
+}
+.help {
+    height: 215px;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.help-heading {
+    display: flex;
+    height: 161px;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+#help-elipce {
+    width: 46px;
+    height: 46px;
+    display: block;
+}
+.help-heading h2 {
+    margin-top: 20px;
+    font-size: 32px;
+    line-height: 20px;
+    color: #6fb048;
+    font-family: "Roboto Light";
+    text-align: center;
+}
+.help-heading p {
+    max-width: 50.5%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #83a7a5;
+    font-family: 'Roboto Regular';
+    text-align: center;
+}
+#mail {
+    font-size: 18px;
+    line-height: 20px;
+    color: #0f5f5c;
+    font-family: "Roboto Bold";
+    text-align: center;
+}
+.callToAction {
+    background-image: url(../img/Download\ now.png);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav-menu {
+        background-color: #2d6e70;
+    }
+}

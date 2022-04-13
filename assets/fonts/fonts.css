@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("./Roboto WebFontKit/roboto-regular-webfont.woff");
+    src: url("./Roboto WebFontKit/roboto-regular-webfont.woff2");
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("./Roboto WebFontKit/roboto-medium-webfont.woff");
+    src: url("./Roboto WebFontKit/roboto-medium-webfont.woff2");
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url("./Roboto WebFontKit/roboto-light-webfont.woff");
+    src: url("./Roboto WebFontKit/roboto-light-webfont.woff2");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("./Roboto WebFontKit/roboto-bold-webfont.woff");
+    src: url("./Roboto WebFontKit/roboto-bold-webfont.woff2");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("./Montserrat WebFontKit/montserrat-regular-webfont.woff");
+    src: url("./Montserrat WebFontKit/montserrat-regular-webfont.woff2");
+}
+@font-face {
+    font-family: "Montserrat SemiBold";
+    src: url("./Montserrat WebFontKit/montserrat-semibold-webfont.woff");
+    src: url("./Montserrat WebFontKit/montserrat-semibold-webfont.woff2");
+}
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url("./Montserrat WebFontKit/montserrat-medium-webfont.woff");
+    src: url("./Montserrat WebFontKit/montserrat-medium-webfont.woff2");
+}
+@font-face {
+    font-family: "Montserrat Light";
+    src: url("./Montserrat WebFontKit/montserrat-light-webfont.woff");
+    src: url("./Montserrat WebFontKit/montserrat-light-webfont.woff2");
+}
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url("./Montserrat WebFontKit/montserrat-bold-webfont.woff");
+    src: url("./Montserrat WebFontKit/montserrat-bold-webfont.woff2");
+}
+
+
